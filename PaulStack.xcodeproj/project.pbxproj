@@ -10,6 +10,8 @@
 		DDAD21F01B23413E007B9975 /* PaulStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDAD21EF1B23413E007B9975 /* PaulStack.h */; };
 		DDAD21F21B23413E007B9975 /* PaulStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD21F11B23413E007B9975 /* PaulStack.m */; };
 		DDAD21F81B23413E007B9975 /* libPaulStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAD21EC1B23413E007B9975 /* libPaulStack.a */; };
+		DDAD22071B234E6C007B9975 /* PaulStackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD22061B234E6C007B9975 /* PaulStackTest.m */; };
+		DDAD22081B234E6C007B9975 /* PaulStackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD22061B234E6C007B9975 /* PaulStackTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 		DDAD21F11B23413E007B9975 /* PaulStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaulStack.m; sourceTree = "<group>"; };
 		DDAD21F71B23413E007B9975 /* PaulStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaulStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAD21FD1B23413E007B9975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAD22061B234E6C007B9975 /* PaulStackTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaulStackTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DDAD21FC1B23413E007B9975 /* Supporting Files */,
+				DDAD22061B234E6C007B9975 /* PaulStackTest.m */,
 			);
 			path = PaulStackTests;
 			sourceTree = "<group>";
@@ -193,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAD22071B234E6C007B9975 /* PaulStackTest.m in Sources */,
 				DDAD21F21B23413E007B9975 /* PaulStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAD22081B234E6C007B9975 /* PaulStackTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
