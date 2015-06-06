@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAD21F01B23413E007B9975 /* PaulStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDAD21EF1B23413E007B9975 /* PaulStack.h */; };
+		DDAD21F21B23413E007B9975 /* PaulStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD21F11B23413E007B9975 /* PaulStack.m */; };
+		DDAD21F81B23413E007B9975 /* libPaulStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAD21EC1B23413E007B9975 /* libPaulStack.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDAD21F91B23413E007B9975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAD21E41B23413E007B9975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAD21EB1B23413E007B9975;
+			remoteInfo = PaulStack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDAD21EA1B23413E007B9975 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DDAD21F01B23413E007B9975 /* PaulStack.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDAD21EC1B23413E007B9975 /* libPaulStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaulStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD21EF1B23413E007B9975 /* PaulStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaulStack.h; sourceTree = "<group>"; };
+		DDAD21F11B23413E007B9975 /* PaulStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaulStack.m; sourceTree = "<group>"; };
+		DDAD21F71B23413E007B9975 /* PaulStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaulStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD21FD1B23413E007B9975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAD21E91B23413E007B9975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD21F41B23413E007B9975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD21F81B23413E007B9975 /* libPaulStack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAD21E31B23413E007B9975 = {
+			isa = PBXGroup;
+			children = (
+				DDAD21EE1B23413E007B9975 /* PaulStack */,
+				DDAD21FB1B23413E007B9975 /* PaulStackTests */,
+				DDAD21ED1B23413E007B9975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAD21ED1B23413E007B9975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD21EC1B23413E007B9975 /* libPaulStack.a */,
+				DDAD21F71B23413E007B9975 /* PaulStackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAD21EE1B23413E007B9975 /* PaulStack */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD21EF1B23413E007B9975 /* PaulStack.h */,
+				DDAD21F11B23413E007B9975 /* PaulStack.m */,
+			);
+			path = PaulStack;
+			sourceTree = "<group>";
+		};
+		DDAD21FB1B23413E007B9975 /* PaulStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD21FC1B23413E007B9975 /* Supporting Files */,
+			);
+			path = PaulStackTests;
+			sourceTree = "<group>";
+		};
+		DDAD21FC1B23413E007B9975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD21FD1B23413E007B9975 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAD21EB1B23413E007B9975 /* PaulStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD22001B23413E007B9975 /* Build configuration list for PBXNativeTarget "PaulStack" */;
+			buildPhases = (
+				DDAD21E81B23413E007B9975 /* Sources */,
+				DDAD21E91B23413E007B9975 /* Frameworks */,
+				DDAD21EA1B23413E007B9975 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaulStack;
+			productName = PaulStack;
+			productReference = DDAD21EC1B23413E007B9975 /* libPaulStack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDAD21F61B23413E007B9975 /* PaulStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD22031B23413E007B9975 /* Build configuration list for PBXNativeTarget "PaulStackTests" */;
+			buildPhases = (
+				DDAD21F31B23413E007B9975 /* Sources */,
+				DDAD21F41B23413E007B9975 /* Frameworks */,
+				DDAD21F51B23413E007B9975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAD21FA1B23413E007B9975 /* PBXTargetDependency */,
+			);
+			name = PaulStackTests;
+			productName = PaulStackTests;
+			productReference = DDAD21F71B23413E007B9975 /* PaulStackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAD21E41B23413E007B9975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Ade";
+				TargetAttributes = {
+					DDAD21EB1B23413E007B9975 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DDAD21F61B23413E007B9975 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDAD21E71B23413E007B9975 /* Build configuration list for PBXProject "PaulStack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDAD21E31B23413E007B9975;
+			productRefGroup = DDAD21ED1B23413E007B9975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAD21EB1B23413E007B9975 /* PaulStack */,
+				DDAD21F61B23413E007B9975 /* PaulStackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAD21F51B23413E007B9975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAD21E81B23413E007B9975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD21F21B23413E007B9975 /* PaulStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD21F31B23413E007B9975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDAD21FA1B23413E007B9975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAD21EB1B23413E007B9975 /* PaulStack */;
+			targetProxy = DDAD21F91B23413E007B9975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDAD21FE1B23413E007B9975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDAD21FF1B23413E007B9975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAD22011B23413E007B9975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDAD22021B23413E007B9975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDAD22041B23413E007B9975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaulStackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDAD22051B23413E007B9975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaulStackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAD21E71B23413E007B9975 /* Build configuration list for PBXProject "PaulStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD21FE1B23413E007B9975 /* Debug */,
+				DDAD21FF1B23413E007B9975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAD22001B23413E007B9975 /* Build configuration list for PBXNativeTarget "PaulStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD22011B23413E007B9975 /* Debug */,
+				DDAD22021B23413E007B9975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDAD22031B23413E007B9975 /* Build configuration list for PBXNativeTarget "PaulStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD22041B23413E007B9975 /* Debug */,
+				DDAD22051B23413E007B9975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAD21E41B23413E007B9975 /* Project object */;
+}
