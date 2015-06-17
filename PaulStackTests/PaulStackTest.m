@@ -6,17 +6,34 @@
 //  Copyright (c) 2015 Paul Ade. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <XCTest/XCTest.h>
 #import "PaulStack.h"
 
-int main(int argc, const char *argv[]) {
+@interface PaulStackTest : XCTestCase
+@end
+
+@implementation PaulStackTest
+
+
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testUserStack
+{
     
-    @autoreleasepool {
-        
         PaulStack *pStack = [[PaulStack alloc] init];
         
         // First do some quick tests, to check that the stack is created and empty
-        assert([pStack isEmpty] == NO);
+        assert([pStack isEmpty] == YES);
         assert([pStack size] == 0);
         assert([pStack pop] == nil);
         assert([pStack isEmpty] == YES);
@@ -33,8 +50,6 @@ int main(int argc, const char *argv[]) {
         [pStack pop];
         assert([pStack size] == 2);
         assert([pStack isEmpty] == NO);
-        
-    }
     
-    return 0;
 }
+@end

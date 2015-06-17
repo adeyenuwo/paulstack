@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD75C5FC1B31CC8B0049BD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD75C5FB1B31CC8B0049BD04 /* Foundation.framework */; };
+		DD75C5FE1B31CD3D0049BD04 /* PaulStackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD75C5FD1B31CD3D0049BD04 /* PaulStackTest.m */; };
 		DDAD21F01B23413E007B9975 /* PaulStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDAD21EF1B23413E007B9975 /* PaulStack.h */; };
 		DDAD21F21B23413E007B9975 /* PaulStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD21F11B23413E007B9975 /* PaulStack.m */; };
 		DDAD21F81B23413E007B9975 /* libPaulStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAD21EC1B23413E007B9975 /* libPaulStack.a */; };
-		DDAD22071B234E6C007B9975 /* PaulStackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD22061B234E6C007B9975 /* PaulStackTest.m */; };
-		DDAD22081B234E6C007B9975 /* PaulStackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD22061B234E6C007B9975 /* PaulStackTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD75C5FB1B31CC8B0049BD04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD75C5FD1B31CD3D0049BD04 /* PaulStackTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaulStackTest.m; sourceTree = "<group>"; };
 		DDAD21EC1B23413E007B9975 /* libPaulStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaulStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAD21EF1B23413E007B9975 /* PaulStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaulStack.h; sourceTree = "<group>"; };
 		DDAD21F11B23413E007B9975 /* PaulStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaulStack.m; sourceTree = "<group>"; };
 		DDAD21F71B23413E007B9975 /* PaulStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaulStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAD21FD1B23413E007B9975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDAD22061B234E6C007B9975 /* PaulStackTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaulStackTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD75C5FC1B31CC8B0049BD04 /* Foundation.framework in Frameworks */,
 				DDAD21F81B23413E007B9975 /* libPaulStack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +70,7 @@
 		DDAD21E31B23413E007B9975 = {
 			isa = PBXGroup;
 			children = (
+				DD75C5FB1B31CC8B0049BD04 /* Foundation.framework */,
 				DDAD21EE1B23413E007B9975 /* PaulStack */,
 				DDAD21FB1B23413E007B9975 /* PaulStackTests */,
 				DDAD21ED1B23413E007B9975 /* Products */,
@@ -95,8 +98,8 @@
 		DDAD21FB1B23413E007B9975 /* PaulStackTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD75C5FD1B31CD3D0049BD04 /* PaulStackTest.m */,
 				DDAD21FC1B23413E007B9975 /* Supporting Files */,
-				DDAD22061B234E6C007B9975 /* PaulStackTest.m */,
 			);
 			path = PaulStackTests;
 			sourceTree = "<group>";
@@ -197,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDAD22071B234E6C007B9975 /* PaulStackTest.m in Sources */,
 				DDAD21F21B23413E007B9975 /* PaulStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDAD22081B234E6C007B9975 /* PaulStackTest.m in Sources */,
+				DD75C5FE1B31CD3D0049BD04 /* PaulStackTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +256,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +289,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -362,6 +362,7 @@
 				DDAD22021B23413E007B9975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDAD22031B23413E007B9975 /* Build configuration list for PBXNativeTarget "PaulStackTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +371,7 @@
 				DDAD22051B23413E007B9975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
